@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 
-	data := []int{70, 40, 50, 10, 22, 33, 54, 77}
+	//data := []int{70, 40, 50, 10, 22, 33, 54, 77}
+	data := []string{"bed", "cot", "abc"}
 
 	for i := 0; i < len(data); i++ {
 		for j := 0; j < len(data)-1; j++ {
